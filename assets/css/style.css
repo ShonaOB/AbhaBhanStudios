@@ -44,7 +44,7 @@ h2 {
 .active {
     text-decoration: underline;
 }
-/*header*/
+/*header - may come back to this to resize image to fix 1440px*/
 #header-image {
     background: url('../images/khara-woods-KR84RpMCb0w-unsplash.jpg') no-repeat center center;
     width: 100%;
@@ -57,11 +57,45 @@ h2 {
     height: 270px;
     width: 270px;
     border-radius: 50%;
-}
+    float: left;
+    margin-left: 10%;
+    }
 /* welcome */
 #welcome {
     width: 60%;
     margin: auto;
     text-align: center;
     padding: 20px;
+}
+
+#welcome-para {
+    text-align: center;
+    width: 50%;
+    margin: 30px;
+    float:right;
+    padding: 2%;
+}
+#gallery-home {
+    margin: 2%;
+    display: block;
+    clear: both;
+}
+
+footer {
+    width: 100%;
+    background-color: lightseagreen;
+    position: fixed;
+    bottom:0;
+    left: 0;
+}
+
+/* media queries */
+@media screen and (min-width: 1350px) {
+    #central-image {
+        margin-left: 13%;
+    }
+
+    #welcome-para {
+        margin: 44px 120px 44px 44px;
+    }
 }
