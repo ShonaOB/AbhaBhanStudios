@@ -1,27 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     color:darkslategray;
 }
-h1 a {
-    text-decoration: none;
+#logo a {
     font-family: 'Montserrat Alternates', sans-serif;
-    color:darkslategray
+    color:darkslategray;
+    text-decoration: none;
+    float: left;
+    font-size: 180%;
 }
-ul li {
+
+#menu li {
     list-style: none;
     display: inline;
     float: right;
     margin: 20px;
     padding: 0 auto;
 }
-ul a {
+#menu a {
     text-decoration: none;
+    color: darkslategray;
 }
-ul a:hover {
+#menu a:hover {
     text-decoration: underline;
 }
-ul a:active {
+#menu a:active {
     text-decoration: underline;
 }
 
