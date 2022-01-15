@@ -31,7 +31,6 @@ h2 {
     display: inline;
     float: right;
     margin: 20px;
-    padding: 0 auto;
     font-size: 160%;
 }
 #menu a {
@@ -51,34 +50,34 @@ h2 {
     height: 360px;
     overflow: hidden;
 }
+#about-section{
+    height: 360px;
+}
 /*circular image*/
 #central-image {
     background: url('../images/home-welcome-image.jpg') no-repeat center center;
-    height: 270px;
     width: 270px;
+    height: 270px;
     border-radius: 50%;
     float: left;
     margin-left: 10%;
     }
 /* welcome */
-#welcome {
+.welcome {
     width: 60%;
     margin: auto;
     text-align: center;
     padding: 20px;
+    display: block;
 }
-
 #welcome-para {
-    text-align: center;
+    text-align: left;
     width: 50%;
-    margin: 30px;
     float:right;
     padding: 2%;
 }
-#gallery-home {
-    margin: 2%;
-    display: block;
-    clear: both;
+#gallery-section {
+    height: 360px;
 }
 
 footer {
