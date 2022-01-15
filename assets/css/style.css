@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -79,7 +80,37 @@ h2 {
 #gallery-section {
     height: 360px;
 }
-
+/* courses page*/
+#course-head h2 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    display: block;    
+}
+.row,
+.row > .column {
+  padding: 8px;
+}
+.column {
+    float: left;
+    width: 33%;
+}
+.content {
+    background-color: white;
+    padding: 10;
+}
+.content img {
+    height: 270px;
+    width: 270px;
+    overflow: hidden;
+}
+.content div img {
+    text-align: center;
+}
+h3 {
+    font-style:italic;
+}
 footer {
     width: 100%;
     background-color: lightseagreen;
