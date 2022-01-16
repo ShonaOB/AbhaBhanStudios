@@ -80,13 +80,20 @@ h2 {
 #gallery-section {
     height: 360px;
 }
-/* courses page*/
+/* courses and gallery pages*/
 #course-head h2 {
     width: 60%;
     margin: auto;
     text-align: center;
     padding: 20px;
     display: block;    
+}
+#course-head {
+    max-width: 1000px;
+    margin: auto;
+}
+.row {
+    margin: 8px -16px;
 }
 .row,
 .row > .column {
@@ -96,20 +103,28 @@ h2 {
     float: left;
     width: 33%;
 }
+.column ul {
+    list-style: none;
+    text-align: center;
+}
 .content {
     background-color: white;
-    padding: 10;
+    padding: 10px;
 }
 .content img {
     height: 270px;
     width: 270px;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .content div img {
     text-align: center;
 }
 h3 {
     font-style:italic;
+    text-align: center;
 }
 footer {
     width: 100%;
@@ -129,3 +144,15 @@ footer {
         margin: 44px 120px 44px 44px;
     }
 }
+/* Responsive layout for columns */
+@media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
