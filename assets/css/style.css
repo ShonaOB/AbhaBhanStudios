@@ -126,6 +126,25 @@ h3 {
     font-style:italic;
     text-align: center;
 }
+/* form on contact page*/
+form {
+    background: lightgrey;
+   /* border-radius: 50%; */
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height:450px;
+    padding: 25px;
+}
+form input {
+    border: 1px solid;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+    line-height: 35px;
+}
 footer {
     width: 100%;
     background-color: lightseagreen;
