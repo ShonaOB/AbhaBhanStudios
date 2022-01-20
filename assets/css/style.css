@@ -165,11 +165,12 @@ h3 {
 /* form on contact page*/
 .form-container {
     background: lightgrey;
-    max-width: 25%;
+    max-width: 60%;
     margin-left: auto;
     margin-right: auto;
     height:fit-content;
     padding-left: 2%;
+    padding-bottom: 100px;
 }
 form input {
     width: 80%;
@@ -182,7 +183,7 @@ form input {
     text-align: center;
     color: darkolivegreen;
     background-color:whitesmoke;
-    margin: 10px;
+    margin-top: 10px;
 }
 #submit:hover {
     font-family: 'Montserrat Alternates', sans-serif;
