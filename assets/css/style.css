@@ -211,15 +211,14 @@ footer a {
     padding: 30px;
     color:lightgray;
 }
-/* media queries for nav */
+/* media queries for nav and video */
 @media screen and (max-width: 1024px) {
     nav ul {
-        display: none;
-    }
-    select {
         display: block;
-        font-size: 200%;
-        text-align: right;
+        font-size: 50%;
+    }
+    video {
+        width: 500px;
     }
 }
 /* Responsive layout for columns */
