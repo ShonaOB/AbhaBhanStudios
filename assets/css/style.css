@@ -165,9 +165,9 @@ h3 {
     text-decoration: underline;
 }
 /* form on contact page*/
-form {
+.form-container {
     background: lightgrey;
-   /* border-radius: 50%; */
+    border-radius: 15%; 
     max-width: 25%;
     margin-left: auto;
     margin-right: auto;
@@ -181,8 +181,8 @@ form input {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    display: inline-block;
     line-height: 35px;
+    display: block;
 }
 form label {
     text-align: right;
