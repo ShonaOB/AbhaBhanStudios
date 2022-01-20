@@ -171,21 +171,35 @@ h3 {
     max-width: 25%;
     margin-left: auto;
     margin-right: auto;
-    height:540px;
+    height:fit-content;
     padding-left: 104px;
     padding-right: 104px;
 }
 form input {
-    border: 1px solid;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+    display: flex;
+    align-items:center;
     line-height: 35px;
-    display: block;
+    width: 85%;
+    margin: 10px;
+}
+#comment {
+    line-height: 70px;
+}
+#submit {
+    text-align: center;
+    color: darkolivegreen;
+    background-color:whitesmoke;
+}
+#submit:hover {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: whitesmoke;
+    background-color: darkolivegreen;
 }
 form label {
     text-align: right;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    color: black;
 
 }
 footer {
