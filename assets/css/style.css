@@ -44,6 +44,9 @@ h2 {
 .active {
     text-decoration: underline;
 }
+select {
+    display: none;
+}
 /*header*/
 #header-image {
     /* image taken from https://www.pexels.com/photo/assorted-bottles-on-brown-wooden-shelf-4362047/ */
@@ -210,11 +213,13 @@ footer a {
 }
 /* media queries for nav */
 @media screen and (max-width: 1024px) {
-    #menu li {
-        float: left;
-        margin: 10px;
-        font-size: 80%;
-    
+    nav ul {
+        display: none;
+    }
+    select {
+        display: block;
+        font-size: 200%;
+        text-align: right;
     }
 }
 /* Responsive layout for columns */
