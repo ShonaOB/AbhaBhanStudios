@@ -100,7 +100,7 @@ h2 {
     display:flex;
     justify-content: center;
 }
-/* courses and gallery pages*/
+/* courses and gallery pages layouts*/
 #course-head h2 {
     width: 60%;
     margin: auto;
@@ -131,6 +131,7 @@ h2 {
 .content {
     background-color: white;
     padding: 10px;
+    padding-bottom: 100px;
 }
 .content img {
     height: 270px;
@@ -192,14 +193,21 @@ form label {
     color: black;
 
 }
+/*footer*/
 footer {
     width: 100%;
     background-color: lightseagreen;
     position: fixed;
     bottom:0;
     left: 0;
+    text-align: center;
+    margin-top: 100px;
 }
-
+footer a {
+    font-size: 220%;
+    padding: 30px;
+    color:lightgray;
+}
 /* media queries for nav */
 @media screen and (max-width: 1024px) {
     #menu li {
