@@ -90,6 +90,10 @@ select {
     display: inline-block;
     width: 33%;
 }
+#welcome-para p {
+    padding: 20px;
+    margin: 2px;
+}
 #gallery-section {
     height: 360px;
     display:block;
