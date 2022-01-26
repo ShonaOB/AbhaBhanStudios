@@ -1,108 +1,34 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+ABHA BHAN STUDIOS (LOGO)
 
-Welcome ShonaOB,
+<h2>Welcome to the Abha Bhan Studios README document.</h2> 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<p>Abha Bhan Studios is a business that offers courses as well as original artworks for sale. The aim of the website is to provide a platform on which to market and ultimately sell the courses on offer as well as the original artworks. </p>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<p>The website will target potential clients who may wish to find out more about the courses on offer, as well as those who wish to buy original artworks. Clients will be able to view the upcoming available courses, book a slot on those courses and also view and express interest in the available artworks.</p> 
 
-## Gitpod Reminders
+<p>The scope of this project is to build the site functionality and allow it to launch with capacity to take bookings and orders via contact form. The e-commerce platform will be part of another project in the future when the scope will include this work. </p>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<h2>Features</h2>
+<p>There are several features included in this initial scope project for Abha Bhan Studios; these features are intended to bring a level of information to the client, and a seamless contact facility for the business. </p>
 
-`python3 -m http.server`
+<h3>Features included in this project:</h3>
+<ul>
+    <li>Landing Page including "about us" video and introduction paragraph</li>
+    <li>Navigation Bar - including "Shop Courses", "Shop Artwork" and "Contact Us" navigation links, in order of priority.</li>
+    <li>Shop Courses Page - to allow clients to view available courses and pricing, and to make contact about one of those courses should they wish to book. </li>
+    <li>Shop Artworks Page - to allow clients to view available artworks and pricing, and to make contact should they wish to make a purchase.</li>
+    <li>Contact Form - to gather data for the business from the potential clients</li>
+</ul>
+<hr>
+<h3>Landing Page</h3>
+<p>The landing page includes a header image showing a close up of the studio workshop. This page is intended to introduce Abha Bhan Studios to the clients and provide a welcome message, some basic information about the business and an informative video. The video has not been set to "autoplay" for UX purposes, and to allow the client to control the interaction. </p>
+<img src="assets/images/header-screenshot.JPG" alt="header image of brushes in the workshop" height=250 width=600>
+<p>The landing page also includes a Welcome Message and an interactive video introducing the client to the business. </p>
+<img src="assets/images/welcome-screenshot.JPG" alt="screenshot of the welcome message on the landing page" height=250 width=600>
+<img src="assets/images/intro-video-screenshot.JPG" alt="screenshot of the welcome video on the landing page" height=250 width=600>
+<hr>
+<h3>Shop Courses</h3>
+<p>The Shop Courses page is designed to show the client the available courses from Abha Bhan Studios. The courses are structured in column format which is designed to be responsive to various screen sizes; for example, on a laptop it will show three columns across. On a mobile device it will show one column across.</p>
+<p>This layout is designed to showcase the course header images which relate to each course available. Each course title is an active link which - for the scope of this project - will bring the client to the contact form to make an enquiry. *We believe that in the next project scope, this will be converted to an "add to cart" feature to allow the clients to book and pay online, therefore reducing the risk of "non-completion" of booking.</p>
+<img src="assets/images/courses-screenshot.JPG" alt="screenshot of the courses displayed on a laptop screen" height=250 width=600>
 
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
