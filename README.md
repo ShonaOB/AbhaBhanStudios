@@ -31,4 +31,43 @@ ABHA BHAN STUDIOS (LOGO)
 <p>The Shop Courses page is designed to show the client the available courses from Abha Bhan Studios. The courses are structured in column format which is designed to be responsive to various screen sizes; for example, on a laptop it will show three columns across. On a mobile device it will show one column across.</p>
 <p>This layout is designed to showcase the course header images which relate to each course available. Each course title is an active link which - for the scope of this project - will bring the client to the contact form to make an enquiry. *We believe that in the next project scope, this will be converted to an "add to cart" feature to allow the clients to book and pay online, therefore reducing the risk of "non-completion" of booking.</p>
 <img src="assets/images/courses-screenshot.JPG" alt="screenshot of the courses displayed on a laptop screen" height=250 width=600>
+<hr>
+<h3>Shop Artwork</h3>
+<p>The Shop Artwork page is designed to exhibit the available original artworks from the Abha Bhan Studios artists. The artwork is structured in column format, similar to the Courses page, which are designed to be responsive to screen size. There is also an explanatory paragraph at the top of the page, to explain that the online purchasing module is being built and in the meantime, artwork can be bought by making contact through the Contact page. *We believe that in the next project scope, this will be converted to an "add to cart" feature to allow the clients to order and pay online, therefore reducing the risk of "non-completion" of orders.</p>
+<img src="assets/images/shopping-message.JPG" alt="screenshot of the message for prospective buyers regarding online shopping module" height=250 width=600>
+<img src="assets/images/artwork-screenshot.JPG" alt="screenshot of the artwork page" height=250 width=600>
+<hr>
+<h3>Contact Page</h3>
+<p>The contact page features a contact form which can be used to make contact about a booking, a purchase, or a general query. Once completed, the client will be brought to a confirmation page, explaining that their message has been sent and someone will contact them soon. </p>
+<img src="assets/images/contact-screenshot.JPG" alt="screenshot of the contact form" height=250 width=600>
+<hr>
+<h3>Features for future scoped Project</h3>
+<p>In the scope of the next project, we will introduce the following features:</p>
+<ul>
+    <li>Add to Cart feature</li>
+    <li>View Cart</li>
+    <li>Online payment portal</li>
+    <li>360 Degree viewing of the exhibition space</li>
+</ul>
+<hr>
+<h2>Testing</h2>
+Chrome
+Microsoft Edge
+Samsung Mobile
+Tablet
+External peer testing
+W3C validator
+
+<h2>Bugs Resolved</h2>
+Positioning on landing page
+Responsiveness of columns
+Responsiveness of menu items
+Positioning of contact form
+
+<h2>Credits</h2>
+https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp
+https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/
+https://flexboxfroggy.com/
+Slack Community
+CodeInstitute Course material and supports
 
