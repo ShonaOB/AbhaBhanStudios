@@ -206,6 +206,11 @@ form label {
     color: black;
 
 }
+#map {
+    margin-top: 20px;
+    position: relative; 
+    left: 20%;
+}
 /*footer*/
 footer {
     width: 100%;
@@ -233,6 +238,9 @@ footer a {
     }
     video {
         width: 500px;
+    }
+    iframe {
+        width: 300px;
     }
   }
   
