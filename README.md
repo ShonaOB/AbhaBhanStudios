@@ -66,10 +66,10 @@
 <h2>Bugs Resolved</h2>
 <p>Bugs that were found and resolved include: 
 <ul>
-    <li>Positioning on the landing page - there was an issue with the circular image and the welcome paragraph not aligning.</li>
-    <li>Responsiveness of Columns on the Courses and Artwork pages</li>
-    <li>Responsiveness error in the welcome paragraph which made it difficult to read on smaller screens. </li>
-    <li>Positioning of the text in the contact form.</li>
+    <li>Positioning on the landing page - there was an issue with the circular image and the welcome paragraph not aligning (see credits below).</li>
+    <li>Responsiveness of Columns on the Courses and Artwork pages - these were resolved by reviewing the course material.</li>
+    <li>Responsiveness error in the welcome paragraph which made it difficult to read on smaller screens - this was identified during Peer Code Review and resolved by reviewing my media queries. </li>
+    <li>Positioning of the text in the contact form - this was resolved by reviewing the course material. </li>
 </ul>
 <p>The HTML Code has been submitted through the following external validators: </p>
 <ul>
@@ -85,6 +85,7 @@
     <li>I would also like to thank a colleague from CodeInstitute who sent me to <a href="https://flexboxfroggy.com/"> this fun and valuable Flexbox game</a></li>
     <li>Slack has been very helpful throughout this process, and I recently found another README template with more information on UX, which I have encorporated below. This is a Code Institute Template.</li>
     <li>I also would like to thank my wonderful CI Slack Community for their assistance, support and advice throughout the project, as well as the original CI Course Material, which was invaluable to revisit throughout as I resolved the bugs.</li>
+    <li>The introductory video was created by me using Adobe Creative Cloud using <a href="https://www.adobe.com/express/feature/video/images-to-video">this link</a></li>
 </ul>
 <hr>
 <h2>User Experience (UX)</h2>
@@ -124,3 +125,5 @@
     <li>CSS3</li>
 </ul>
 </p>
+<hr>
+<h5>Shóna O'Brien</h5>
